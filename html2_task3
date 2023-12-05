@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Netflix India − Watch TV Shows On </title>
+    <link rel="icon" href="netflix_favicon-icon.png">
+    <link rel="stylesheet" href="csspra.css">
+
+</head>
+<body>
+    <!----------------------------- Header------------------------------------------------- -->
+    
+    <header>
+        <!-- ------------------Navigation Bar----------------------------------------------- -->
+        <nav>
+            <div class="nav">
+                <!-- ----------Netflix Nav Logo-------------------------------- -->
+                <div class="navimg">
+                    <img class="navlogo"src="Netflix_nav_logo.png" alt="Netflix Logo">
+                </div>
+                <!----------------- Netflix Language Select------------------------------- -->
+                <div class="navlogin">
+                    <select class="lang" name="Lang" id="Languages">
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="Spanish">Spanish</option>
+                    <option value="German">German</option>
+                  </select>
+                  <!-- ---------------------sign in ------------------------------- -->
+                    <a class="signin2"href="#">Sign In</a>
+                  
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <!-- -------------------------------Main Content of home page------------------------------------------------- -->
+        <div class="container">
+            <div class="h">
+                <h1 class="milan">Unlimited movies, TV</h1>
+                <h1>shows and more.</h1>
+                <h2>Watch anywhere. Cancel anytime.</h2>
+                <p><strong>Ready to watch? Enter your email to create or restart your membership.</strong></p>
+               <!-- -------------------Search Bar------------------------------------------ -->
+                <div class="search">
+                    <div class="search2">
+                        <input type="text" name="search" id="search" placeholder="Email address" required>
+                    </div>
+                    <!-- ----------------Get started------------------------------ -->
+                    <div class="search2">
+                        <a class="hex"href="#">Get Started<img class="nex"src="getstarted.svg" alt="photo"></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- -----------------------------second page------------------------------------- -->
+        <hr class="yes">
+        <!-- ------------------second page first stage---------------------------- -->
+        <div class="enjoy">
+            <div class="textsecond">
+                <h1>Enjoy on your TV.</h1>
+                <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+                </p>
+            </div>
+            <div class="videosecond">
+                <img class="tvimage" src="tv.png" alt="tv">
+            </div>
+        </div>
+        <!-- -----------------------------Third page------------------------------- -->
+        <hr class="no">
+        <!-- --------------------third page main container---------------------------- -->
+        <div class="download">
+        <!-- -------------first image content----------------- -->
+            <div class="videothird">
+                <div class="betaimg1"><img class="betaimage12"src="mobile.jpg" alt="photo"></div>
+                <!-- --------------beta content on image ---------------------------- -->
+                <div class="betaimg2">
+                    <div class="betaimage3">
+                        <img class="bataimage31"src="boxshot.png" alt="photo">
+                    </div>
+                    <div class="text21">
+                        <h3>Stranger Things</h3>
+                        <a class="koko"href="#">Downloading...</a>
+                    </div>
+                    <div class="betaimage4">
+                        <img class="betaimage41"src="download-icon.gif" alt="photoo">
+                    </div>
+                </div>
+            </div>
+            <!-- ---------------second content of main container----------------------- -->
+            <div class="textthird">
+                <h1>Download your shows to watch offline.</h1>
+                <p>Save your favourites easily and always have something to watch.</p>
+            </div>
+        </div>
+        <!-- ---------third main conatainer---------------------------- -->
+        <hr class="thirdhr">
+        <div class="content3">
+            <div class="textcontent">
+                <h1>Watch everywhere.</h1>
+                <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            </div>
+            <div class="videocontent">
+                <img class="thirdimg"src="device-pile-in.png" alt="photu">
+
+            </div>
+        </div>
+        <!-- ------------------------fourth page-------------------------------------- -->
+        
+
+        <!-- ------------------hr------------------------------------- -->
+        
+        <hr class="kol">
+
+        <!-- ------------fourth main container--------------------------------- -->
+        <div class="profile">
+            <div class="cophoto">
+                <img class="thirdimg" src="4th.png" alt="photu">
+            </div>
+            <div class="cotext">
+                <h1>Create profiles for children.</h1>
+                <p>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+            </div>
+        </div>
+            <!-- ------------------asked questions----------------------------- -->
+
+            <!-- ------------------------hr-------------------- -->
+            <hr class="kokl">
+
+            <!-- ------------------main container------------------------ -->
+            <div class="faq">
+                
+                <div class="cont1">
+                    <img class="logomain"src="1.png" alt="photu">
+                
+                </div>
+                <div class="undemolish">
+                    <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                </div>
+                <div class="junedune">
+                    <div id="milan"class="search">
+                        <div class="search2">
+                            <input type="text" name="search" id="search" placeholder="Email address" required>
+                        </div>
+                        <!-- ----------------Get started------------------------------ -->
+                        <div class="search2">
+                            <a class="hex"href="#">Get Started<img class="nex"src="getstarted.svg" alt="photo"></a>
+                        </div>
+                    </div>
+                    
+                    
+
+                </div>
+                
+            </div>
+
+    </main>
+    <hr class="hread">
+    <footer>
+        <div>
+        <div class="ftext">Questions? Call 000-800-040-1843</div>
+    </div>
+        <div class="fc">
+          
+            <ul>
+                <li>FAQ</li>
+                <li>Investor Relations</li>
+                <li>Privacy</li>
+                <li>Speed Test</li>
+                <li>Legal Notices</li>
+                <li>Cookie Preferences</li>
+                <li id="two">Jobs</li>
+                <li id="three">Help Centre</li>
+                <li id="five">Account</li>
+                <li id="seven">Ways to Watch</li>
+                <li>Corporate Information</li>
+                <li id="onee">Only on Netflix</li>
+                <li id="four">Media Centre</li>
+                <li id="six">Terms of Use</li>
+                <li>Contact Us</li>
+            </ul>
+
+            
+                
+        </div>
+        <div class="navlogin" id="netflix">
+            <select class="lang" name="Lang" id="Languages">
+            <option value="English">English</option>
+            <option value="Hindi">Hindi</option>
+            <option value="Spanish">Spanish</option>
+            <option value="German">German</option>
+          </select>
+          <div class="india">Netflix India</div></div>
+          
+    </footer>
+    
+</body>
+</html>
