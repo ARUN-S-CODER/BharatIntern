@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Patrick+Hand&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* -------------------Main Body ---------------------*/
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(image.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     backdrop-filter: blur(2px);
+    height: 90vh;
+      
+    
+    
+}
+/* -----------------navigation bar -----------*/
+.navlogo{
+    width: 150px;
+    
+    
+}
+.navimg{
+    margin-left: 56px;
+}
+/* ---------------sign in ------------------------------------- */
+.signin2{
+    text-decoration: none;
+    
+    padding: 9px 20px;
+    border-radius: 4px;
+    background-color: #e50914;
+    color: white;
+    margin-left: 30px;
+
+    
+}
+/* --------------main container of nav Bar---------------------------------------- */
+.nav{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ----------------login and language main container----------------------------- */
+.navlogin{
+    margin-right: 56px;
+}
+
+/* ----------------------------------- Language Bar--------------------------------------- */
+.lang{
+    padding: 7px;
+    border-radius: 3px;
+    
+    
+}
+
+/* ------------------------------------------------------main content------------------------------------------------- */
+
+
+/* -------------------------main container of home page------------------------------ */
+.container{
+    padding-top: 160px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+.container h1{
+    font-size: 3rem;
+    color: white;
+}
+.container h2{
+    color: white;
+    margin: 10px 0px 25px 0px;
+    
+}
+.container p{
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+
+}
+/* ----------------------main container of search and get started bar------------------- */
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* ----------------------searchbar home page------------------------------------ */
+
+#search{
+
+    width: 500px;
+    height: 55px;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+/* -----------------------class of image tag in get started --------------------------------- */
+.nex{
+    height: 15px;
+    padding-left: 10px;
+    color: white;
+}
+/* ---------------------- class of get started link-------------------------------*/
+.hex{
+    background-color: #e50914;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    padding: 13px;
+    padding-right: 15px;
+    padding-left: 40px;
+}
+
+/* ------------------------------second page--------------------------------------- */
+/* ----------------hr tag------------------------------------- */
+.yes{
+    margin-top: 143px;
+    height: 8px;
+    background-color: #333333;
+    border: black;
+}
+
+
+/* -------------------------------second page 1st stage---------------------------- */
+
+
+
+
+/* ------------main container of both ---------------- */
+.enjoy
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    background-color: black;
+
+
+}
+/* -----------main container text content----------------------------- */
+.textsecond{
+    margin-left: 30px;
+    color: white;
+}
+.textsecond h1{
+    font-size: 3.2rem;
+    padding-bottom: 10px;
+    color: white;
+}
+.textsecond p{
+    max-width: 450px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: white;
+}
+
+/* -----------main conatainer image containent---------------- */
+
+
+.tvimage{
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* --------------------------------------second page--------------------------- */
+
+
+
+/* -------------------hr------------------------------------- */
+.no{
+    height: 8px;
+    background-color: #333333;
+    border: black;
+
+}
+
+/* --------------------------third page main container------------------------------------------- */
+
+.download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black ;
+    gap: 5rem;
+
+}
+/* --------------------main imag------------------------------- */
+.betaimage12{
+    width:500px;
+    padding-top: 30px;
+    margin-right: 110px;
+    
+}
+
+/* ---------------beta content main container--------------------- */
+.betaimg2{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 2px solid #333333;
+    max-width: fit-content;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: black;
+
+    position: relative;
+    bottom: 125px;
+    left: 95px;
+}
+.bataimage31
+{
+    width: 50px;
+}
+.betaimage41{
+    width: 40px;
+}
+/* _--------------------------beta content text ---------------------------------- */
+.text21 h3{
+    color: white;
+    padding-right: 40px;
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+/* --------------------------beta content link------------------------------------- */
+.koko{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #0071eb;
+}
+/* -------------------------------second container of main third container---------------------- */
+.textthird{
+    max-width: 500px;
+}
+.textthird h1{
+    font-size: 3rem;
+    padding-bottom: 10px;
+    color: white;
+
+}
+.textthird p{
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: white;
+}
+
+/* ------------------------------------third container------------------------- */
+
+
+/* -----------------hr------------------------------------------- */
+.thirdhr{
+    height: 8px;
+    background-color: #333333;
+    border: black;
+    
+}
+/* ----------------main container of third container---------------------- */
+.content3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    background-color: black;
+}
+
+/* ------------main image ---------------------- */
+.thirdimg{
+    width: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* -------------text content in main container------------------- */
+.textcontent h1{
+    font-size: 3rem;
+    padding-bottom: 10px;
+    color: white;
+
+}
+.textcontent p{
+    font-size: 1.3rem;
+    max-width: 500px;
+    font-weight: 300;
+    color: white;
+
+
+}
+
+
+/* ---------------hr------------------------------ */
+
+.kol{
+    height: 8px;
+    background-color: #333333;
+    border: black;
+
+}
+
+/* -------------------------------fourth main container-------------------------------------------- */
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    background-color: black;
+}
+
+/* -----------------main image---------------------------------- */
+
+
+
+/* ---------------------------------------text of fouth container-------------------------- */
+.cotext h1{
+    font-size: 2.4rem;
+    color: white;
+    font-weight: 300;
+    padding-bottom: 10px;
+
+}
+.cotext p{
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 300;
+    max-width: 500px;
+}
+/* -------------------------------------------hr------------------------------------------------------ */
+.kokl{
+    height: 8px;
+    background-color: #333333;
+    border: black;
+
+}
+/* -------------------Freaquantly Asked Questions----------------------------------- */
+
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:black;
+}
+
+.undemolish{
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+    color: white;
+
+}
+#milan{
+    padding-bottom: 100px;
+}
+.logomain{
+    width: 98vw;
+}
+/* -------------------------------footer part-------------------------------- */
+
+.hread{
+    height: 8px;
+    background-color: #333333;
+    border: black;
+
+}
+.fc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 100px solid black;
+    background-color:black;
+    padding: 40px;
+    padding-bottom: 100px;
+    
+
+    
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: first baseline;
+    column-gap: 10rem;
+    row-gap: 1rem;
+    
+    
+    align-items: center;
+    color:#737373;
+    
+
+    
+}
+.ftext{
+    background-color: black;
+    position: absolute;
+    top:3640px;
+    left: 130px;
+    color: #737373;
+    background-color: black;
+}
+#onee{
+    position: relative;
+    right: 130px;
+
+}
+#two{
+    position: relative;
+    right: 110px;
+
+}
+#three{
+    position: relative;
+    right: 17px;
+
+}
+#four{
+    position: relative;
+    right: 104px;
+}
+#five{
+    position: relative;
+    right: 48px;
+}
+#six{
+    position: relative;
+    right: 146px;
+
+}
+#seven{
+    position: relative;
+    right: 28px;
+
+}
+.india{
+    color: #737373;
+    padding-top: 20px;
+    font-size: 0.8rem;
+    padding-left: px;
+}
+#netflix{
+    background-color: black;
+    width: 60%;
+    position: absolute;
+    top: 3900px;
+    left: 130px;
+}
