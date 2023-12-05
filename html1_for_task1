@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="csspra2.css">
+    <title>ARUN BIOGRAPHY</title>
+</head>
+<body>
+    <img class="alpha" align="left" src="profile.jpg">
+    <img class="alpha10" align="right" src="profile.jpg">
+    <header>
+        <h1>ARUN_S</h1>
+        <p>Web Developer</p>
+    </header>
+    <section id="about">
+        <h2><u>About me</u></h2>
+        <p>Hi, I am Arun.S. I am pursing B.Tech CSBS at Sri Sairam Engineering college. My favourite sports are cricket and kabbadi. My favourite cricket player is Ravindra Jadaja who is known for its great fielder.</p>
+
+    </section>
+    <section id="skills">
+        <h2><u>My Skills</u></h2>
+        <img align="middle" class="alpha2" src="skills.jpg">
+        <p>Programming skills: c, c++, java, python</p>
+        <hr>
+        <p>Web development skills: javascript, html, css, bootstrap</p>
+        <hr>
+        <p>Other skills: Quicklearner, Figma designer</p>
+    </section>
+    <section id="projects">
+        <h2><u>Projects</u></h2>
+        <img class="alpha4" align="right" src="project1.jpg">
+        <div class="project">
+            <h3><b>Project 1</b></h3>
+            <p>As I am taken part in bharat internship.<br>So, I completed my project.<br>The first project is Clone Version Netflix website.<br>This project is recreated the homepage of netflix website with beautiful images and css style to attract my audiuence.<br></p>
+        </div>
+        <img class="alpha4" align="right" src="project.jpg">
+        <div class="project">
+            <h3><b>Project 2</b></h3>
+            <p>As I already mentioned that I have taken part in bharat internship.<br>So, I completed my second project as a web developer to create a portfilo website using html and css.<br>In this project, I created a website which contains my project details and few personal information about me.<br></p>
+        </div>
+    </section>
+    <section id="contact">
+        
+        <h2 class="go"><u>Contact info</u><img class="alpha3" align="right" src="contact.jpg"></h2>
+        <p>Email: sairamstudent@gmail.com</p>
+        <p>Linkedin: linkedin.com/in/arun_s</p>
+    </section>
+</body>
+</html>
